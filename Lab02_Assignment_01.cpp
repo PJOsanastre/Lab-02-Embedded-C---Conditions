@@ -10,7 +10,7 @@ int num;
 printf("Enter a real number: ");
  scanf("%d", &num);
 
-    if (3 <= num < 8.5) // first checking the condition.
+    if (3 <= num && num < 8.5) // first checking the condition.
         {
             printf("A,");
             if (num < 3 || 5.4 < (num <= 7.3) || num >13)
